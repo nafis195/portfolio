@@ -1,7 +1,22 @@
 html , body{
 	font-family: 'Roboto', sans-serif;
 	color: #000;
+	font-size: 20px;
 }
+
+.clearfix:after {
+     visibility: hidden;
+     display: block;
+     font-size: 0;
+     content: " ";
+     clear: both;
+     height: 0;
+     }
+.clearfix { display: inline-block; }
+/* start commented backslash hack \*/
+* html .clearfix { height: 1%; }
+.clearfix { display: block; }
+/* close commented backslash hack */
 
 a{
 	
@@ -21,12 +36,15 @@ h2{
 }
 
 .container{
-	background: url('../img/bg2.jpg');
-	background-size: cover;
-	background-attachment: fixed;
 	text-align: center;
 	height: 100vh;
 	width: 100%;
+}
+.home-container{
+	background: url('../img/bg2.jpg');
+	background-size: cover;
+	background-attachment: fixed;
+	
 }
 
 .main-content{
@@ -150,4 +168,97 @@ h2{
 	left: 0px;
 	transform: translate(0%,-50%);
 
+}
+
+
+
+.about-container{
+	background: url('../img/about-bg.jpg');
+	background-size: cover;
+	background-attachment: fixed;
+	color: #fff;
+}
+
+.about-overlay{
+	background: rgba(0,0,0,0.8);
+}
+.about-header h1{
+	
+	color: #000;
+	text-shadow: 0px 0px 10px #ecf0f1;
+}
+.about-content{
+	margin: 0% 5%;
+}
+.about-content img{
+	float: left;
+	margin: 0% 5%;
+	margin-top: -2%;
+}
+.about-details{
+	text-align: left;
+	margin-top: 1%;
+	
+}
+.about-details h2{
+	margin: 0px;
+	font-size: 35px;
+}
+.about-details p{
+	text-align: justify;
+	color: #95a5a6;
+}
+.hobbies h2{
+	margin:10px 0px;
+}
+.hobbies, .hobbies p{
+	text-align: center;
+}
+.hobbies p{
+	margin: 5px 0px;
+	color: #fff;
+}
+
+.hobby{
+	width: 100px;
+	height: 100px;
+	padding: 10px;
+	float: left;
+	
+	border-radius: 50%;
+	margin: 10px 30px;
+	background: #000;
+}
+
+
+/*=====Skill==*/
+
+.skill-container{
+	background: url('../img/skill-bg.jpg');
+	background-size: cover;
+	background-attachment: fixed;
+}
+.skill-overlay{
+	background: rgba(0, 0, 0, 0.8);
+}
+
+#html, #css,#js,#php,#mysql,#angular {
+  margin: 20px auto;
+  width: 200px;
+  height: 200px;
+  position: relative;
+}
+.skillset-details{
+	color: #000;
+}
+.skillset-details h1{
+	text-shadow: 0px 0px 10px #ecf0f1;
+}
+
+.skills{
+	width: 33.33%;
+	float: left;
+}
+.progressbar-text{
+	color: #e67e22;
 }

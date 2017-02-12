@@ -70,7 +70,7 @@ xt_css.animate(0.75);
 //js
 
 var xt_js = new ProgressBar.Circle(js, {
-  color: '#aaa',
+  color: '#fff',
   // This has to be the same size as the maximum width to
   // prevent clipping
   strokeWidth: 10,

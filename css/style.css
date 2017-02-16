@@ -262,3 +262,124 @@ h2{
 .progressbar-text{
 	color: #e67e22;
 }
+
+/*====Portfolio==*/
+.portfolio-container-bg{
+	background: url('../img/portfolio-bg.jpg');
+	background-size: cover;
+	background-attachment: fixed;
+}
+.portfolio-overlay{
+	background: rgba(0,0,0,0.8);
+}
+.portfolio-details h1{
+	text-shadow: 0px 0px 15px #ecf0f1;
+}
+.filter-nav{
+	margin: 15px 0px;
+}
+.filter-nav ul{
+	list-style-type: none;
+	display: inline-block;
+	margin: 0px;
+	padding: 0px;
+	background: #2ecc71;
+	border-radius:3px;
+
+
+}
+.filter-nav ul li{
+	display: inline-block;
+	padding: 5px 10px;
+	font-size:25px;
+
+}
+.filterize{
+	width: 1140px;
+	text-align: center;
+	margin: 0px auto;
+
+}
+.fill-width{
+	height: 183px;
+	width: 275px;
+	float: left;
+	background: #000;
+	margin: 5px;
+	overflow: hidden;
+}
+.fill-width img{
+	
+	transition: all 3s;
+}
+.fill-width:hover img{
+	transform: scale(1.3);
+	
+}
+
+/*====  Resume */
+.resume-container-bg{
+	background: url('../img/resume-bg.jpg');
+	background-size: cover;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+
+} 
+.resume-overlay{
+	background: rgba(0,0,0,0.7);
+}
+.resume-details h1{
+	text-shadow: 0px 0px 10px #ecf0f1;
+
+}
+.resume-details {
+	
+}
+.education-details,.work-details{
+	width: 50%;
+	font-size: 18px;
+	float: left;
+}
+.education-details h2 ,.work-details h2{
+	text-shadow: 0px 0px 5px #fff;
+}
+.education-details ul,.work-details ul {
+	list-style: none;
+	position: relative;
+}
+.education-details ul li , .work-details ul li{
+	margin: 10px 5%;
+	width: 90%;
+	background: rgba(0, 0, 0,0.3);
+	box-shadow: 0px 0px 3px #fff;
+	color: #fff;
+	
+	padding: 5px;
+	
+}
+
+.education-details ,.work-details{
+	font-size: 20px;
+}
+.edu-info i,.work-info i{
+	font-size: 30px;
+	color:#2ecc71;
+}
+.work-info i{
+	color: #3498db;
+}
+.work-info .fa-icon, .edu-info .fa-icon{
+	margin: 0px 5px;
+}
+.education p,.work p {
+	font-size: 14px;
+	margin: 2px;
+	line-height: 1.1;
+	padding: 10px 2px;
+	text-align: center;
+	color: #bdc3c7;
+	
+}
+.edu-info,.work-info{
+	display: block;
+}

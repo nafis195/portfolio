@@ -202,4 +202,7 @@ xt_angular.text.style.fontFamily = '"Roboto", Helvetica, sans-serif';
 xt_angular.text.style.fontSize = '25px';
 
 xt_angular.animate(0.75);
+
+
+
 };

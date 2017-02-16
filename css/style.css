@@ -366,7 +366,7 @@ h2{
 	color:#2ecc71;
 }
 .work-info i{
-	color: #3498db;
+	color: #2ecc71;
 }
 .work-info .fa-icon, .edu-info .fa-icon{
 	margin: 0px 5px;
@@ -382,4 +382,88 @@ h2{
 }
 .edu-info,.work-info{
 	display: block;
+}
+
+
+/*====Contact area==*/
+
+
+.container-contact-bg{
+	background: url('../img/contact-bg.jpg') no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+	
+}
+.contact-form,.addressbar{
+	width: 50%;
+	float: left;
+}
+.contact-form h1{
+	color: #2ecc71;
+}
+form span{
+	text-align: left;
+	font-size: 18px;
+	display: block;
+	color: #fff;
+}
+form{
+	width: 80%;
+	margin: 5px auto;
+}
+input, textarea,button{
+	margin: 5px auto;
+	padding: 5px;
+	border: 5px solid rgba(39, 174, 96,1.0);
+	width: 100%;
+	background: rgba(52, 73, 94,0.3);
+	color: #ecf0f1;
+}
+textarea{
+	height: 
+
+}
+form input[type="button"]{
+	display: inline;
+	width: 100%;
+	margin-left: 2px;
+	margin: 0px auto;
+}
+.addressbar{
+	margin: 80px auto;
+}
+.addressbar-details{
+	width: 50%;
+	margin: 20px auto;
+	height:100px;
+	background: ;
+
+
+}
+.addressbar-details span{
+	box-sizing: border-box;
+	width: 30%;
+	display: inline-block;
+	float: left;
+	height: 100px;
+	background: #2ecc71;
+	color: #fff;
+	padding-top: 10px;
+	border-radius: 10px;
+}
+.addressbar-details span i{
+	font-size: 80px;
+
+}
+.text{
+	box-sizing: border-box;
+	width: 70%;
+	float: left;
+	color: #fff;
+	text-align: left;
+	padding-left: 10px;
+}
+.text h3, .text p{
+	margin: 5px auto;
+	padding: 0px;
 }

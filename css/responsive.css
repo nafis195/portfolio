@@ -20,7 +20,7 @@
             width: 33.33%;
             float: left;
         }
-        h2{
+        .clients-container h2, .about-me-container h2,.skillset-container h2,.portfolio-container h2,.resume-container h2,.clients-container h2 ,.contact-container h2{
             display: none;
         }
         .user h1{
@@ -36,7 +36,128 @@
         .user h1 span {
            font-size: 20px;
         }
-       
+        /*====about me ===*/
+        .about-overlay{
+            padding: 30px 0px;
+            box-sizing: border-box;
+        }
+        .about-header h1{
+            font-size: 25px;
+        }
+        .about-content img{
+        margin-bottom: 10px;
+       }
+       .about-details h2 {
+        text-align: center;
+
+       }
+       .about-details p{
+        font-size: 15px;
+       }
+       .hobby{
+        width: 50%;
+        float: left;
+       }
+       .hobby {
+        width: 75px;
+        height: 75px;
+        margin: 10px 23px;
+        }
+
+        /*====Skillset */
+        .skill-overlay{
+            padding-top: 10px;
+            padding-bottom: 50px;
+        }
+        .skills {
+        width: 50%;
+        float: left;
+        }
+
+        #html, #css, #js, #php, #mysql, #angular {
+            margin: 20px auto;
+            width: 130px;
+            height: 130px; 
+            }
+
+
+            /*=====Education and work ===*/
+            .resume-overlay {
+                padding: 15px 0px;
+            }
+
+            .education-details, .work-details{
+                width: 100%;
+            }
+            .education-details ul , .work-details ul{
+                padding: 0px;
+            }
+            .education-details ul li, .work-details ul li{
+                margin: 20px auto;
+            }
+
+            /*====COntact area===*/
+            .contact-details {
+                padding: 15px 0px;
+            }
+            .contact-form, .addressbar {
+                width: 100%;
+                float: none;
+                
+            }
+            form {
+                width: 85%;
+                
+            }
+            .addressbar {
+                margin: 35px auto;
+            }
+            .addressbar-details {
+                width: 90%;
+                
+            }
+            .addressbar-details span {
+                width: 25%;
+                height: 70px;
+                padding-top: 5px;
+            }
+            .addressbar-details span i {
+                font-size: 50px;
+            }
+            .text h3, .text p {
+                margin: 2px auto;
+                font-size: 18px;
+            }
+
+
+            /*===Portfolio*/
+            .portfolio-overlay {
+                
+                padding: 25px 0px;
+            }
+            .portfolio-details h1 {
+                width: 100%;
+            }
+            .shuffle-container {
+                width: 320px;
+               
+                padding: 0px;
+            }
+            .filter-nav li a {
+                padding: 5px;
+            }
+            .grid-item {
+                width: 100%;
+               
+            }
+            .item {
+                width: 90%;
+               
+                margin: 10px;
+                float: left;
+                overflow: hidden;
+                height: 175px;
+            }
     }
     
 
@@ -70,8 +191,72 @@
         .center{
             width: 40%;
         }
-        
 
+        /*===ABOUT ==*/
+        .about-content {
+            margin: 0% 3%;
+        }
+        .about-content img {
+            margin: 0% 1%;
+        }
+        .about-details p {
+           margin: 15px 30px;
+        }
+        .hobbies {
+            clear: both;
+        }
+        .hobbies h2 {
+            margin: 20px 0px;
+        }
+        .hobbies p {
+            margin: 5px 0px;
+        }
+        
+        /*=====Work Education==*/
+        .education-details ul, .work-details ul {
+            padding: 0px;
+        }
+        .education-details ul li, .work-details ul li {
+            margin: 10px auto;
+        }
+        form {
+            width: 90%;
+        }
+        input, textarea, button {
+            width: 94%;
+        }
+        .addressbar-details {
+             width: 100%;
+        
+        }
+        .addressbar-details span {
+            width: 25%;
+            height: 95px;
+            padding-top: 12px;
+        }
+        .addressbar-details span i {
+            font-size: 70px;
+        }
+        /*====Portfolio=====*/
+        .portfolio-details h1 {
+            
+            margin-bottom: 10px;
+        }
+        .shuffle-container {
+            width: 100%;
+            
+            text-align: center;
+            padding: 0px;
+            /* padding: 15px; */
+        }
+        .item{
+            width: 45%;
+            overflow: hidden;
+            height: 175px;
+        }
+        .portfolio-details{
+            margin: 30px 0px;
+        }
     }
 
     /* Medium Devices, Desktops */
@@ -83,10 +268,84 @@
         .user h1 span {
            font-size: 50px;
         }
+
+        .hobby {
+            margin: 10px 55px;
+            
+        }
+        .addressbar-details span {
+            height: 100px;
+            
+        }
+        .text {
+            padding-left: 20px;
+        }
     }
 
     /* Large Devices, Wide Screens */
     @media only screen and (min-width : 1200px) {
 
+        .about{
+            margin: 50px 0px;
+        }
+        .hobbies{
+            clear: none;
+        }
+        .hobby {
+            margin: 10px 43px;
+        }
 
+        .skill-overlay {
+            padding: 10px 0px;
+        }
+        .resume-details h1 {
+            margin: 10px;
+        }
+        .addressbar-details span {
+            width: 17%;
+           
+        }
+        input, textarea, button {
+            width: 96%;
+        }
+
+        .shuffle-container {
+            width: 100%;
+            
+            text-align: center;
+            padding: 0px;
+            /* padding: 15px; */
+        }
+        .item{
+            width: 23%;
+            overflow: hidden;
+            height: 175px;
+        }
+        .portfolio-details{
+            margin: 30px 0px;
+        }
+    }
+
+
+    @media only screen and (min-width : 1920px){
+        .hobby {
+            margin: 20px 116px;
+        }
+        .hobbies h2 {
+           
+            font-size: 45px;
+        }
+        input, textarea, button {
+            width: 97%;
+        }
+        .addressbar-details span {
+            width: 14%;
+        }
+        .portfolio-details h1 {
+            margin-bottom: 40px;
+        }
+        .shuffle-container {
+
+            padding: 15px;
+        }
     }
